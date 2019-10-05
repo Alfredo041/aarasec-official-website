@@ -1,5 +1,4 @@
 .navbar{
-    box-shadow: 2px 2px 5px #000;
     opacity: .9;
 }
 
@@ -12,6 +11,7 @@
     background-image: url(../img/home.jpg);
     background-size: cover;
     min-height: 600px;
+    margin: 110px 0px 0px 0px;
 }
 
 .background-overlay{
@@ -57,4 +57,45 @@ footer .list-inline .list-inline-item {
         padding: 20px 0 !important;
         font-size: 20px;
     }
+}
+
+/*carusel*/
+div[class="carusel"]{
+    width: 20%;
+    height: 20px;
+
+}
+
+
+
+.border{
+    width: 100px;
+    height: 100px;
+    margin: 20px 20px 20px 50px;
+    border-radius: 50%;
+ 
+}
+
+.cuadro{
+    width: 500px;
+    height: 175px;
+    padding: 20px 50px 50px 50px;
+    margin: 50px;
+    background-color: black;
+    border-radius: solid 5px red;
+    
+}
+
+h6{
+    padding: 30px 0px 0px 90px;
+
+}
+
+span{
+    padding: 30px 0px 0px 50px;
+}
+
+.caja{
+    color: white;
+    padding: 30px 0px 0px 0px;
 }

@@ -17,7 +17,7 @@
 
 <body>
     <!--Navegacion-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #e3f2fd;">
         <!--cambaira color: navbar-dark bg-dark-->
         <div class="container">
             <a class="navbar-brand" href="#">
@@ -114,7 +114,7 @@
     <hr>
 
     <section>
-        <div class="container" >
+        <div class="container">
             <div class="row">
                 <div class="col-md-7 margintop-sm">
                     </br>
@@ -123,24 +123,64 @@
                     <h1 class="display-4">CONOCE NUESTRO EQUIPO</h1>
 
                 </div>
-                <div class="col-md-5 margintop-sm">
-                    </br>
-                    </br>
-                    <div class="row">
-                        <div class="card mb-6" style="max-width: 540px; ">
-                            <div class="row no-gutters">
-                                <div class="col-md-4">
-                                    <img src="../img/usuario.jpg" alt="..." class="rounded-circle card-img">
+                <div class="col-md-5 margintop-sm bg-dark caja">
+                    <div id="carouselEducaCodigo" class="carousel slide" data-ride="carousel" class="carusel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselEducaCodigo" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselEducaCodigo" data-slide-to="1"></li>
+                            <li data-target="#carouselEducaCodigo" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner ">
+                            <div class="carousel-item active">
+                                <div class="testimonial-user">
+                                    <div class="row">
+                                        <div class="col-md-3 col-3">
+                                            <img src="../img/member-01.jpg" class="img-fluid border" alt="">
+                                        </div>
+                                        <div class="col-md-5 col-5">
+                                            <h6>Bart</h6>
+                                            <span>ipsu</span>
+                                        </div>
+
+                                    </div>
+
                                 </div>
-                                <div class="col-md-8">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
-                                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                            Dolorem, illum. </p>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="testimonial-user">
+                                    <div class="row">
+                                        <div class="col-md-3 col-3">
+                                            <img src="../img/member-01.jpg" class="img-fluid border" alt="">
+                                        </div>
+                                        <div class="col-md-5 col-5">
+                                            <h6>Bart</h6>
+                                            <span>ipsum</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="testimonial-user">
+                                    <div class="row">
+                                        <div class="col-md-3 col-3">
+                                            <img src="../img/member-01.jpg" class="img-fluid border" alt="">
+                                        </div>
+                                        <div class="col-md-5 col-5">
+                                            <h6>Bart</h6>
+                                            <span>ipsum</span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                        <a href="#carouselEducaCodigo" class="carousel-control-prev" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a href="#carouselEducaCodigo" class="carousel-control-next" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -171,7 +211,8 @@
                             <h5 class="card-title text-center">Servicio #2</h5>
                             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
                                 accusantium facere aspernatur aliquid non velit deserunt quis quo dolore id distinctio
-                                possimus similique repellat eos necessitatibus maiores esse, eum excepturi! Lorem ipsum dolor sit amet consectetur.</p>
+                                possimus similique repellat eos necessitatibus maiores esse, eum excepturi! Lorem ipsum
+                                dolor sit amet consectetur.</p>
                             <a href="#" class="btn btn-primary">Read More</a>
                         </div>
                     </div>
@@ -242,7 +283,7 @@
                 <li class="list-inline-item footer-menu"><a href="#Inicio">Inicio</a></li>
                 <li class="list-inline-item footer-menu"><a href="#Nosotros">Nosotros</a></li>
                 <li class="list-inline-item footer-menu"><a href="#Servicios">Servicios</a></li>
-                <li class="list-inline-item footer-menu"><a href="#Contacto">Contacto</a></li>
+                <li class="list-inline-item footer-menu"><a href="#">Contacto</a></li>
                 <li class="nav-item dropdown">
                     <a class="list-inline-item footer-menu dropdown-toggle" href="#" id="navbarDropdownMenuLink"
                         role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
