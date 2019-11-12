@@ -18,6 +18,14 @@ html{
     margin: 110px 0px 0px 0px;
 }
 
+.servicio-header{
+	position: relative;
+    background-image: url(../img/servicio.webp);
+    background-size: cover;
+    min-height: 600px;
+    margin: 110px 0px 0px 0px;
+}
+
 .background-overlay{
     position: absolute;
     background: rgba(48, 51, 107,.5);
@@ -79,8 +87,6 @@ div[class="carusel"]{
     border-radius: 50%;
  
 }
-
-
 
 .cuadro{
     width: 500px;
@@ -164,8 +170,6 @@ span{
         color: #fff;
     }
 
-
-	
 	#intro {
 	
 		text-align: center;
