@@ -34,7 +34,7 @@ html{
     min-height: 600px;
     margin: 110px 0px 0px 0px;
 }
-
+/*
 .alcance-header{
     position: relative;
     background-image:  url(../img/vr.webp);
@@ -42,6 +42,7 @@ html{
     min-height: 600px;
     margin: 110px 0px 0px 0px;
 }
+*/
 .background-overlay{
     position: absolute;
     background: rgba(48, 51, 107,.5);
@@ -222,6 +223,36 @@ span{
         }
         /*fin de estilos nosotros*/
 
+        
+/*estilo titulo de alcance*/
+
+.text-alcance{
+    display: inline-block;
+    position: relative;
+    margin-top: 10px;
+    color: black;
+    font-family: Arial; 
+}
+
+.text-alcance::after,.text-alcance::before{
+    content: '';
+    position: absolute;
+    width: 120px;
+    height: 3px;
+    background-color:currentColor;/*se adata al color que le ponga al texto*/
+    top: 0.6em;
+}
+
+
+.text-alcance::before{
+    right: -140px;
+}
+
+.text-alcance::after{
+    left: -140px;
+}
+
+/*fin estilo titulo de alcance*/
 
 /*inicio de footer*/
 
