@@ -6,8 +6,26 @@ html{
     opacity: .9;
 }
 
+/*inicio de estilos de servicios*/
+
+/*fin de estilos de servicios*/
+.media-body2{
+    margin-left: 40%;
+    margin-bottom: 10px;
+   
+}
+
+.media img{
+    padding-top: 20px;
+    padding-left: 20%;
+}
 .navbar .nav-item .nav-link{
-    color: #000;
+    font-weight: bold;
+    font-size: 25px;
+    font-style: normal;
+    background-color:#FFFFFF;
+    border-radius: 50%;
+    margin-right: 5px;
 }
 
 /*inicio estilos de slaider*/
@@ -60,32 +78,6 @@ html{
 .team{
     background: #30336b;
 
-}
-
-footer {
-    padding: 80px 0;
-    text-align: center;
-    color: #ffffff;
-}
-
-footer a {
-    color: #ffffff;
-}
-
-footer a:hover {
-    color: #ffffff;
-}
-
-footer .list-inline .list-inline-item {
-    padding: 10px 15px;
-}
-
-@media (max-width: 575.98px) { 
-    .footer-menu { 
-        display: block !important;
-        padding: 20px 0 !important;
-        font-size: 20px;
-    }
 }
 
 /*carusel*/
@@ -225,7 +217,10 @@ span{
 
         
 /*estilo titulo de alcance*/
-
+.alcance-center{
+    background-color: red;
+    padding-left: 40%;
+}
 .text-alcance{
     display: inline-block;
     position: relative;
