@@ -1,7 +1,8 @@
-body,
-html{
+html,
+body{
     scroll-behavior: smooth;
 }
+
 .navbar{
     opacity: .9;
 }
@@ -9,16 +10,7 @@ html{
 /*inicio de estilos de servicios*/
 
 /*fin de estilos de servicios*/
-.media-body2{
-    margin-left: 40%;
-    margin-bottom: 10px;
-   
-}
 
-.media img{
-    padding-top: 20px;
-    padding-left: 20%;
-}
 .navbar .nav-item .nav-link{
     font-weight: bold;
     font-size: 25px;
@@ -97,15 +89,7 @@ div[class="carusel"]{
  
 }
 
-.cuadro{
-    width: 500px;
-    height: 175px;
-    padding: 20px 50px 50px 50px;
-    margin: 50px;
-    background-color: black;
-    border-radius: solid 5px red;
-    
-}
+
 
 h6{
     padding: 30px 0px 0px 90px;
@@ -356,23 +340,46 @@ footer{
     font-weight: bold;
 }
 
-@media screen and ( max-width: 1100px){
+@media (min-width: 200px) and (max-width: 400px){
 
+     .contenedor-principal{
+        background-color: blue;
+    }
+    .navbar{
+      text-align: center;
+      margin-right: 30px;
+    }
+    .collapse{
+        padding-left: 100px;
+    }
+    .text-alcance{
+        font-size: 15px;
+    }
+
+
+    .personalizar{
+        padding-right: 20px;
+    }
+    .style3{
+        float: right;
+        padding-left: 500px;
+    }
+    .intro button{
+    margin-left: 100px;
+    }
+    /*footer*/
     .container-body{
-        flex-wrap: wrap;/*va acomodando las columnas segun el tamanio de pantalla*/
+        flex-wrap: wrap;
+        text-align: center;
     }
-
-    .colum1{
-        max-width: 100px;
-    }
-
     .colum2,
     .colum3{
-
-        margin-top: 40px;
-
+        margin-top: 10px;
     }
-
+    .colum1,
+    .colum2,
+    .colum3{
+        margin-left: 10px;
+    }
 }
-/*fin de footer*/
 
