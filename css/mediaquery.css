@@ -1,0 +1,245 @@
+@media (min-width: 200px) and (max-width: 400px){
+
+
+    .navbar{
+      text-align: center;
+      margin-right: 40px;
+    }
+    .collapse{
+        padding-left: 100px;
+    }
+
+    .img-header{
+        display: none;
+    }
+    .personalizar{
+        padding-right: 50px;
+    }
+
+
+    .text-alcance{
+        font-size: 15px;
+    }
+.text-alcance::after,.text-alcance::before{
+    width: 80px;
+}
+    .text-alcance::before{
+        right: -100px;
+    }
+    
+    .text-alcance::after{
+        left: -100px;
+    }
+
+ 
+    #intro p .style3{
+        margin-left: 10px;
+    }
+
+    .estilo-btn-servicio{
+        margin-left: 80px;
+    }
+    /*footer*/
+    .container-body{
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .colum2,
+    .colum3{
+        margin-top: 10px;
+    }
+    .colum1,
+    .colum2,
+    .colum3{
+        margin-left: 10px;
+    }   
+}
+
+@media (min-width: 400px) and (max-width: 500px){
+    .navbar{
+        text-align: center;
+        margin-right: 50px;
+    }
+
+    .collapse{
+        padding-left: 200px;
+    }
+    
+    .personalizar{
+        padding-left: 50px;
+    }
+
+    .text2-nosotros{
+        display: inline-block;
+    }
+
+    .estilo-btn-servicio{
+        margin-left: 150px;
+    }
+
+    .text-alcance{
+        font-size: 20px;
+    }
+    .text-alcance::after,.text-alcance::before{
+    width: 80px;
+    }
+    .text-alcance::before{
+        right: -100px;
+    }
+    
+    .text-alcance::after{
+        left: -100px;
+    }
+    
+    .img-header{
+        display: none;
+    }
+
+     /*footer*/
+    .container-body{
+        display: block;
+        margin-left: 20px;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 600px){
+    
+    .navbar{
+        text-align: center;
+        margin-right: 80px;
+    }
+    
+    .collapse{
+        padding-left: 300px;
+        padding-right: 10px;
+    }
+
+    .personalizar{
+        padding-left: 30px;
+        margin-left: 50px;
+    }
+
+    .text2-nosotros{
+        display: inline-block;
+      
+    }
+
+    
+    .estilo-btn-servicio{
+        margin-left: 170px;
+    }
+
+
+    .text-alcance{
+        font-size: 20px;
+    }
+
+    .text-alcance::after,.text-alcance::before{
+        width: 80px;
+        }
+        .text-alcance::before{
+            right: -100px;
+        }
+        
+        .text-alcance::after{
+            left: -100px;
+        }
+
+        .container-body{
+            display: block;
+            margin-left: 20px;
+        }
+
+        .img-header{
+            display: none;
+        }
+
+}
+
+@media (min-width: 601px) and (max-width: 700px){
+
+
+    .navbar{
+        text-align: center;
+        margin-right: 50px;
+    }
+
+    .collapse{
+        padding-left: 200px;
+    }
+
+    .img-header{
+        display: none;
+    }
+
+    .personalizar{
+        margin-left: 80px;
+    }
+
+
+    .text2-nosotros{
+        display: inline-block;
+    }
+    .estilo-btn-servicio{
+        margin-left: 180px;
+    }
+    .text-alcance{
+        font-size: 20px;
+    }
+    .text-alcance::after,.text-alcance::before{
+    width: 130px;
+    }
+            .container-body{
+            word-wrap: break-word;
+        }
+}
+
+@media (min-width: 701px) and (max-width: 800px){
+    
+            .navbar{
+                text-align: center;
+                margin-right: 50px;
+            }
+
+            .collapse{
+                padding-left: 200px;
+            }
+
+            .img-header{
+                display: none;
+            }
+            .personalizar{
+                margin-left: 80px;
+            }
+        
+            .text2-nosotros{
+                display: inline-block;
+            }
+            .estilo-btn-servicio{
+                margin-left: 180px;
+            }
+
+            .text-alcance{
+                font-size: 20px;
+            }
+            .text-alcance::after,.text-alcance::before{
+            width: 130px;
+            }
+            .container-body{
+            word-wrap: break-word;
+        }
+}
+
+@media (min-width: 801px) and (max-width: 900px){
+            /*footer*/
+           .container-body{
+            word-wrap: break-word;
+        }
+
+        .servicios{
+            -webkit-flex-flow: column;
+            flex-flow: column;
+        }
+
+}
+
