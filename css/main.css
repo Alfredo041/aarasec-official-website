@@ -227,6 +227,13 @@ span{
 			font-size: 1.1em;
         }
         /*fin de estilos nosotros*/  
+
+        /*Servicios*/
+        .txt-servicios{
+            text-align: center;
+            font-size: 50px;
+            margin-bottom: 30px;
+        }
 /*estilo titulo de alcance*/
 .alcance-center{
     background-color: red;
@@ -257,6 +264,13 @@ span{
 .text-alcance::after{
     left: -140px;
 }
+
+.img-alcance{
+    width: 550px;
+    height: 430px;
+}
+
+
 
 /*fin estilo titulo de alcance*/
 
