@@ -54,9 +54,7 @@
         margin-left: 10px;
     }   
 
-    .img-alcance{
-        width: 330px;
-    }
+
 }
 
 @media (min-width: 400px) and (max-width: 500px){
@@ -162,11 +160,7 @@
             display: none;
         }
 
-        .alcance-header.card-1{
-          
-            display: none;
-           
-        }
+ 
 
       
 }

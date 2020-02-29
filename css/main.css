@@ -26,7 +26,43 @@ body{
 }
 
 /*fin de estilos de servicios*/
+/*alcance*/
+.conten-alcance{
+    background: url(../img/Alcance.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    position: relative;
 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.conten-alcance:before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: gray;
+    position: absolute;
+    opacity: 0.5;
+}
+
+.conten-alcance .card-deck{
+    margin-top: 20%;
+    margin-bottom: 20%;
+    justify-content: center;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.conten-alcance .card-deck .card-body{
+    
+    opacity: 0.6;
+}
+/*fin de alcance*/
 .navbar .nav-item .nav-link{
     font-weight: bold;
     font-size: 25px;
@@ -37,6 +73,8 @@ body{
 }
 
 /*inicio estilos de slaider*/
+
+
 .personalizar{
     padding-top: 30px;
     padding-left: 30px;
@@ -51,6 +89,10 @@ body{
     background-size: cover;
     min-height: 600px;
     margin: 110px 0px 0px 0px;
+}
+
+.servicios{
+    margin-bottom: 10%;
 }
 
 .servicio-header{
@@ -265,10 +307,6 @@ span{
     left: -140px;
 }
 
-.img-alcance{
-    width: 550px;
-    height: 430px;
-}
 
 
 
