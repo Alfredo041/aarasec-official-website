@@ -1,0 +1,34 @@
+
+footer{
+    background: rgb(35, 34, 46)!important;
+    height: 100%;
+  }
+  
+  footer span{
+    font-weight: bold;
+  }
+  
+  footer .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+    flex-direction: column;
+  }
+  
+  footer .btn-nosotros{
+    display: inline-block;
+    padding: 10px 20px;
+    background: rgb(255, 133, 38);
+    color: #fff;
+    border-radius: 40px;
+    text-decoration: none;
+    margin-top: 20px;
+  }
+  
+  footer .footer-copyright .container{
+    display: flex;
+    flex-direction: row !important;
+  }
+  

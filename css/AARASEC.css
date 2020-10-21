@@ -1,0 +1,198 @@
+nav{
+    background: #fff !important;
+    overflow: hidden;
+    height: 15vh !important;
+}
+
+nav .nav-wrapper a img{
+    height: 15vh;
+}
+
+#index-banner{
+    overflow: hidden;
+  
+}
+#index-banner h1{
+    color: rgb(255, 79, 1) !important;
+}
+
+#index-banner a{
+    background: rgb(255, 79, 1) !important;
+    border-radius: 50px;
+   
+}
+
+#index-banner .container{
+   position: relative;
+   z-index: 5;
+    margin-top: 15%;
+   height: 100vh;
+}
+
+#index-banner .container h5{
+    font-weight: bold;
+}
+#index-banner img{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    opacity: .5;
+}
+
+/*servicios*/
+.servicios{
+    position: relative;
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.servicios h3{
+    color: rgb(255, 79, 1) !important;
+    font-family: sans-serif;
+}
+
+
+.servicios .row{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+
+.servicios .row .col .card .card-image .alt{
+  height: 40vh !important;
+}
+
+.servicios .row .col .card-action a{
+    background: rgb(255, 79, 1) !important;
+    padding: 10px 20px;
+    border-radius: 40px;
+    color: #ffff !important;
+}
+
+.detalle_servicio{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f1f1f1;
+}
+
+
+.detalle_servicio .about-section{
+    background: url(../img/cuantitativo.png) no-repeat left;
+    background-size: 55%;
+    background-color: #f1f1f1;
+    overflow: hidden;
+    padding: 100px 0;
+}
+
+.detalle_servicio .about-section:nth-child(4){
+    background: url(../img/cualitativo.jpg) no-repeat left;
+}
+
+.detalle_servicio .about-section:nth-child(5){
+    background: url(../img/nosotros.jpg) no-repeat left;
+}
+
+.detalle_servicio .inner-container{
+    width: 55%;
+    float: right;
+    background-color: #fdfdfd;
+    padding: 100px;    
+}
+
+.detalle_servicio .about-section .inner-container h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.detalle_servicio .about-section .inner-container .skilis{
+    margin-top: 20px;
+}
+.detalle_servicio .about-section .inner-container .skilis a{
+    font-weight: 700;
+    font-size: 13px;
+    background: tomato;
+    color: #fff;
+    padding: 15px;
+    border-radius: 10%;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1200px){
+    .detalle_servicio .inner-container{
+        padding: 80px;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .detalle_servicio .about-section{
+        background-size: 100%;
+        padding: 100px 40px;
+    
+    }
+
+    .detalle_servicio  .inner-container{
+      width: 100%;
+      opacity: .7;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .detalle_servicio .about-section{
+        padding: 0;
+    }
+    .detalle_servicio .inner-container{
+        padding: 60px;
+    }
+}
+
+@media screen and (max-width: 619px){
+    .servicios .row .col .card-action a{
+        font-size: 10px !important;
+    }
+}
+
+@media screen and (max-width: 400px){
+    #index-banner img{
+        height: 80vh;
+    }
+    #index-banner h1{
+        font-size: 30px;
+     
+    }
+    #index-banner h5{
+        font-size: 15px;
+    }
+
+    .servicios h3{
+        font-size: 20px;
+    }
+
+    .detalle_servicio .about-section .inner-container h1{
+        font-size: 20px;
+        color:red;
+    }
+
+    .detalle_servicio .about-section{
+        background: url(../img/cuantitativo.png) no-repeat;
+        background-size: 100%;
+        height: 100%;
+
+    }
+    
+    .detalle_servicio .about-section:nth-child(4){
+        background: url(../img/cualitativo.jpg) no-repeat;
+        background-size: 100%;
+    }
+    
+    .detalle_servicio .about-section:nth-child(5){
+        background: url(../img/nosotros.jpg) no-repeat;
+        background-size: 100%;
+    }
+}
