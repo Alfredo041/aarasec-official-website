@@ -55,7 +55,7 @@
        background-color: rgb(255, 133, 38) !important;
        border-radius: 20px;
     }
-    #index-banner  h6{
+    #index-banner  h5,h6{
       
       color: rgb(255, 133, 38);
     }
