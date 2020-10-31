@@ -83,8 +83,14 @@ nav .nav-wrapper a{
 }
 
 .card-container .card .circle img{
+      margin-top: 60px;
       width: 200px;
       height: 200px;
+}
+
+.card-container .card .circle .logo-img{
+  margin-top: 40px;
+    width: 260px;
 }
 
 .card-container .card .content{

@@ -10,11 +10,27 @@
    scroll-behavior: smooth;
  }
 
+ nav{
+   overflow: hidden;
+   height: 15vh !important;
+   position: fixed;
+   z-index: 5;
+ }
+
  nav ul a,
  nav .brand-logo {
    color: #444;
  }
  
+ nav .nav-wrapper a {
+    display: flex;
+    justify-content: center;
+ }
+
+ nav .nav-wrapper a img{
+   width: 20%;
+    height: 15vh;
+ }
  p {
    line-height: 2rem;
  }
@@ -37,6 +53,7 @@
      width: 90%;
    }
 
+
     .text-invmercado{
       color:  rgb(255, 133, 38);
       font-weight: bold !important;
@@ -49,21 +66,31 @@
 
     #index-banner{
       height: 90vh;
+      background-color: rgb(0, 0, 10%) !important;
     }
-     
+
     #index-banner a{
        background-color: rgb(255, 133, 38) !important;
        border-radius: 20px;
     }
     #index-banner  h5,h6{
-      
       color: rgb(255, 133, 38);
     }
     .contenedor-header h1{
-      color: rgb(255, 133, 38);
+      color: #fff;
       margin-top: 20%;
     }
-
+    
+    #servicios a{
+      background-color: rgb(255, 133, 38) !important;
+      border-radius: 10px;
+     }
+    #servicios .col a{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 90%;
+     }
     .text-title-services{
     
       text-align: center;

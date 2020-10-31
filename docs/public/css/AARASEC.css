@@ -6,6 +6,8 @@ nav{
     background: #fff !important;
     overflow: hidden;
     height: 15vh !important;
+    position: fixed;
+    z-index: 10;
 }
 
 nav .nav-wrapper a img{
@@ -14,7 +16,6 @@ nav .nav-wrapper a img{
 
 #index-banner{
     overflow: hidden;
-  
 }
 #index-banner h1{
     color: rgb(255, 79, 1) !important;
