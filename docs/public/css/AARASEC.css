@@ -10,15 +10,25 @@ nav{
     z-index: 10;
 }
 
-nav .nav-wrapper a img{
-    height: 15vh;
-}
 
 #index-banner{
     overflow: hidden;
 }
+
+
+
+#index-banner .section  img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 5px;
+}
+
+
 #index-banner h1{
     color: rgb(255, 79, 1) !important;
+    margin-top: 20%;
 }
 
 #index-banner a{
@@ -28,22 +38,21 @@ nav .nav-wrapper a img{
 }
 
 #index-banner .container{
-   position: relative;
-   z-index: 5;
-    margin-top: 15%;
+    position: relative;
+    z-index: 5;
    height: 100vh;
 }
 
 #index-banner .container h5{
     font-weight: bold;
 }
-#index-banner img{
-    position: absolute;
-    width: 100%;
-    height: 100vh;
-    opacity: .5;
+#index-banner{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
 }
 
+.text-invmercado h5{
+    color: #fff !important;
+}
 /*servicios*/
 .servicios{
     position: relative;
@@ -73,6 +82,13 @@ nav .nav-wrapper a img{
 .servicios .row .col .card-action a{
     background: rgb(255, 79, 1) !important;
     padding: 10px 20px;
+    border-radius: 40px;
+    color: #ffff !important;
+}
+
+.container .section .row .col a{
+    background: rgb(255, 79, 1) !important;
+    padding: 0px 20px;
     border-radius: 40px;
     color: #ffff !important;
 }
@@ -155,6 +171,10 @@ nav .nav-wrapper a img{
     .detalle_servicio .inner-container{
         padding: 60px;
     }
+    #index-banner .section .container .img-logo-header img{
+        width: 90px;
+        height: 90px;
+    }
 }
 
 @media screen and (max-width: 619px){
@@ -167,37 +187,7 @@ nav .nav-wrapper a img{
     #index-banner img{
         height: 80vh;
     }
-    #index-banner h1{
-        font-size: 30px;
+ 
      
-    }
-    #index-banner h5{
-        font-size: 15px;
-    }
 
-    .servicios h3{
-        font-size: 20px;
-    }
-
-    .detalle_servicio .about-section .inner-container h1{
-        font-size: 20px;
-        color:red;
-    }
-
-    .detalle_servicio .about-section{
-        background: url(../img/cuantitativo.png) no-repeat;
-        background-size: 100%;
-        height: 100%;
-
-    }
-    
-    .detalle_servicio .about-section:nth-child(4){
-        background: url(../img/cualitativo.jpg) no-repeat;
-        background-size: 100%;
-    }
-    
-    .detalle_servicio .about-section:nth-child(5){
-        background: url(../img/nosotros.jpg) no-repeat;
-        background-size: 100%;
-    }
 }

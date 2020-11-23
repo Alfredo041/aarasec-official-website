@@ -8,6 +8,7 @@ nav{
     margin-bottom: 20px;
 }
 
+
 nav .nav-wrapper{
     display: flex;
 }
@@ -28,6 +29,12 @@ nav .logo-img{
     width: 200px;
     height: 100px;
 }
+
+nav .logo-img2{
+    width: 200px;
+    height: 100px;
+}
+
 
 .contenedor-nosotros{
     display: flex;
@@ -60,10 +67,7 @@ nav .logo-img{
 
 }
 
-.contenedor-nosotros .seccion .nosotros img{
-    width: 300px;
-    height: 200px;
-}
+
 
 .contenedor-alcance {
     position: relative;
@@ -109,6 +113,7 @@ nav .logo-img{
 }
 
 
+
 .contenedor-alcance .text-alcance .text:nth-child(2){
     height: 90px;
 }
@@ -133,7 +138,6 @@ nav .logo-img{
     nav .nav-wrapper h5{
         font-size: 10px !important;
     }
-
     .contenedor-nosotros .seccion{
         width: 100%;
     }
@@ -161,6 +165,7 @@ nav .logo-img{
     }
 
 }
+
 
 @media screen and (min-width: 400px) and (max-width: 600px){
     .contenedor-alcance .img-alcance h2{

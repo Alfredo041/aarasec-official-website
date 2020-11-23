@@ -44,6 +44,7 @@ nav .nav-wrapper a{
   flex-wrap: wrap;
 }
 
+
 .card-container .card{
   position: relative;
   width: 300px;
@@ -54,6 +55,11 @@ nav .nav-wrapper a{
   border-radius: 20px;
   overflow: hidden;
   box-shadow: 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.card-container .card .newlogoaarasec img{
+  width: 200px !important;
+  height: 150px !important;
 }
 
 .card-container .card:nth-child(1){
